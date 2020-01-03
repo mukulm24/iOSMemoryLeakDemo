@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0B97A82A23BF1862006A29F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97A82923BF1862006A29F3 /* AppDelegate.swift */; };
-		0B97A82C23BF1862006A29F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97A82B23BF1862006A29F3 /* ViewController.swift */; };
 		0B97A82F23BF1862006A29F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B97A82D23BF1862006A29F3 /* Main.storyboard */; };
 		0B97A83123BF1863006A29F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B97A83023BF1863006A29F3 /* Assets.xcassets */; };
 		0B97A83423BF1863006A29F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B97A83223BF1863006A29F3 /* LaunchScreen.storyboard */; };
+		0B97A83C23BF187A006A29F3 /* AvengersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97A83B23BF187A006A29F3 /* AvengersListViewController.swift */; };
+		0B97A83E23BF1A2A006A29F3 /* Avenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97A83D23BF1A2A006A29F3 /* Avenger.swift */; };
+		0B97A84023BF1C36006A29F3 /* AvengersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97A83F23BF1C36006A29F3 /* AvengersTableViewCell.swift */; };
+		0B97A84223BF1DAB006A29F3 /* AvengerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97A84123BF1DAB006A29F3 /* AvengerDetailViewController.swift */; };
+		0B97A84423BF1DFC006A29F3 /* AvengerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97A84323BF1DFC006A29F3 /* AvengerImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B97A82623BF1862006A29F3 /* Avengers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avengers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B97A82923BF1862006A29F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B97A82B23BF1862006A29F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B97A82E23BF1862006A29F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B97A83023BF1863006A29F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B97A83323BF1863006A29F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B97A83523BF1863006A29F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B97A83B23BF187A006A29F3 /* AvengersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengersListViewController.swift; sourceTree = "<group>"; };
+		0B97A83D23BF1A2A006A29F3 /* Avenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avenger.swift; sourceTree = "<group>"; };
+		0B97A83F23BF1C36006A29F3 /* AvengersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengersTableViewCell.swift; sourceTree = "<group>"; };
+		0B97A84123BF1DAB006A29F3 /* AvengerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengerDetailViewController.swift; sourceTree = "<group>"; };
+		0B97A84323BF1DFC006A29F3 /* AvengerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengerImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				0B97A82923BF1862006A29F3 /* AppDelegate.swift */,
-				0B97A82B23BF1862006A29F3 /* ViewController.swift */,
 				0B97A82D23BF1862006A29F3 /* Main.storyboard */,
 				0B97A83023BF1863006A29F3 /* Assets.xcassets */,
 				0B97A83223BF1863006A29F3 /* LaunchScreen.storyboard */,
 				0B97A83523BF1863006A29F3 /* Info.plist */,
+				0B97A83B23BF187A006A29F3 /* AvengersListViewController.swift */,
+				0B97A83D23BF1A2A006A29F3 /* Avenger.swift */,
+				0B97A83F23BF1C36006A29F3 /* AvengersTableViewCell.swift */,
+				0B97A84123BF1DAB006A29F3 /* AvengerDetailViewController.swift */,
+				0B97A84323BF1DFC006A29F3 /* AvengerImageView.swift */,
 			);
 			path = Avengers;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B97A82C23BF1862006A29F3 /* ViewController.swift in Sources */,
+				0B97A84223BF1DAB006A29F3 /* AvengerDetailViewController.swift in Sources */,
+				0B97A84023BF1C36006A29F3 /* AvengersTableViewCell.swift in Sources */,
+				0B97A83C23BF187A006A29F3 /* AvengersListViewController.swift in Sources */,
+				0B97A84423BF1DFC006A29F3 /* AvengerImageView.swift in Sources */,
+				0B97A83E23BF1A2A006A29F3 /* Avenger.swift in Sources */,
 				0B97A82A23BF1862006A29F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
